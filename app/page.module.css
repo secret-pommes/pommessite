@@ -46,7 +46,7 @@
 }
 
 .xmppClients {
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .matchmakerStatus {
@@ -82,5 +82,15 @@
   color: orange;
 }
 .titledot {
+  color: orange;
+}
+
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
+.nan {
   color: orange;
 }
