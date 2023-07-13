@@ -7,24 +7,80 @@
   min-height: 100vh;
 }
 
-.centertitle {
-  position: absolute;
-  top: 10px;
-  color: rgb(113, 113, 113);
+.title {
   font-size: 50px;
-}
-
-.projects {
   position: relative;
-  top: 20px;
-  font-size: 20px;
+  top: -50px;
 }
 
-.LawinServerV2{
+.services {
   position: relative;
-  top: 20px;
+  top: 50px;
 }
 
-.LawinServerV2SubInfo{
-  font-size: 15px;
+.nxproxy {
+  position: relative;
+  top: 50px;
+}
+
+.lawinserver {
+  position: relative;
+  top: 50px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.backendStatus {
+  font-size: 40px;
+}
+
+.xmppStatus {
+  font-size: 40px;
+}
+
+.xmppClients {
+  font-size: 40px;
+}
+
+.matchmakerStatus {
+  font-size: 40px;
+}
+
+.nxproxystatus {
+  font-size: 40px;
+}
+
+.br {
+  display: block;
+  margin: 1px;
+}
+
+/*
+ Colors:
+
+ Green: Online,
+ Red: Offline,
+ Orange: N/A, No infos from API.
+*/
+.nxproxydot {
+  color: orange;
+}
+.backenddot {
+  color: orange;
+}
+.xmppdot {
+  color: orange;
+}
+.matchmakerdot {
+  color: orange;
+}
+.titledot {
+  color: orange;
 }
